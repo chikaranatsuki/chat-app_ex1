@@ -8,6 +8,4 @@ class Message < ApplicationRecord
   def was_attached?
     self.image.attached?
   end
-
-  # メッセージ送信機能を実装しました
 end
